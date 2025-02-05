@@ -1,12 +1,9 @@
 #include <iostream>
 
-int main(int argc, char* argv[])
+using namespace std;
+
+int main()
 {
-    std::cout << "argc: " << argc << std::endl;
-    for (int i = 0; i < argc; i++)
-    {
-        std::cout << "argv[" << i << "]: " << argv[i] << std::endl;
-    }
-    std::cout << "Hello World!" << std::endl;
+    cout << "Hello World!" << endl;
     return 0;
 }
