@@ -1,5 +1,20 @@
 # CS151_Spring2025
 
+## Cloning Your Repository
+First time only:
+```sh
+git clone <repository-url>
+code CS151_Spring2025
+```
+
+## Editing Github Configuration
+First time only:
+```sh
+git config --global user.name "<Your Name>"
+git config --global user.email <Your Email>
+```
+
+
 ## Committing Your Work
 Saving your work to your repository:
 ```sh
