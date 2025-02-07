@@ -1,4 +1,5 @@
-# **CS151_Spring2025**
+# **CS 151 - Introduction to Computing**
+
 
 [Prerequisite Software for Local Developement](compiler.md)
 
