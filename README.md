@@ -29,7 +29,7 @@ cat rc.txt >> ~/.bashrc
 source ~/.bashrc
 ```
 - Run the following command:
-````sh
+```sh
 ./setup.sh
 ```
 
