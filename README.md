@@ -15,11 +15,25 @@ First time only.
 git clone <repository-url>
 code CS151_Spring2025
 ```
+
+## Setting Up Your Environment
 - Open terminal in Visual Studio Code
-- Run the following command:
+- If you are using MacOs, run the following command:
 ```sh
+cat rc.txt >> ~/.zshrc
+source ~/.zshrc
+```
+- If you are using Windows or Linux, run the following command:
+```sh
+cat rc.txt >> ~/.bashrc
+source ~/.bashrc
+```
+- Run the following command:
+````sh
 ./setup.sh
 ```
+
+
 
 ## Editing Github Configuration
 One time only:

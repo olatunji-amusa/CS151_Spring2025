@@ -1,0 +1,16 @@
+export WORKSPACE=$PWD # Record of the starting directory
+
+compile() {
+    abs_path="$(realpath "$1")" # Get the absolute path of the file
+    exe_path="${abs_path%.*}" # Get the path of the executable
+
+    g++ -std=c++23 -o "$exe_path" "$abs_path" && "$exe_path" # Compile and run the file
+
+    rm "$exe_path" # Remove the executable
+}
+
+alias workspace='echo $WORKSPACE' # Print the workspace/starting directory
+alias gotoworkspace='cd $WORKSPACE' # Go to the workspace/starting directory
+alias g++='g++ -std=c++23' # Use C++23 standard
+alias mec='compile' # Compile and run the cpp file
+
