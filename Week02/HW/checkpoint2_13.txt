@@ -1,0 +1,15 @@
+Assuming the char data type uses 1 byte of memory, how many bytes do the
+following literals use?
+'Q'
+"Q"
+"Sales"
+'\n'
+
+/* Write your answers below.
+************************************************************************************************
+
+
+
+
+************************************************************************************************
+*/
