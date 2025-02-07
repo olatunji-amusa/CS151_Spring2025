@@ -7,10 +7,19 @@
 - If you are using GitHub Codespaces, click the "Code" button and select "Create codespace on main."
 
 ## Cloning Your Repository
-First time only:
+First time only.
+- Open the terminal on your local machine.
+- Go to the directory where you want to clone the repository.
+- Run the following commands:
 ```sh
 git clone <repository-url>
 code CS151_Spring2025
+```
+- Open terminal in Visual Studio Code
+- Run the following commands:
+```sh
+./playground.sh
+./gfetch.sh
 ```
 
 ## Editing Github Configuration
