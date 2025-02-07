@@ -1,6 +1,6 @@
-# CS151_Spring2025
+# **CS151_Spring2025**
 
-
+[Prerequisite Software for Local Developement](compiler.md)
 
 ## Getting Started
 - Fork this repository to your own account by clicking the "Fork" button in the upper right corner of this page.
@@ -8,10 +8,10 @@
 - Click the "Code" button and copy the URL under "Local" to clone the repository to your local machine.
 - If you are using GitHub Codespaces, click the "Code" button and select "Create codespace on main."
 
-## Cloning Your Repository
+## Cloning Your Repository to Your Local Machine (Skip if using GitHub Codespaces)
 First time only.
 - Open the terminal on your local machine.
-- Go to the directory where you want to clone the repository.
+- Go to the directory where you would to place the repository.
 - Run the following commands:
 ```sh
 git clone <repository-url>
@@ -19,13 +19,13 @@ code CS151_Spring2025
 ```
 
 ## Setting Up Your Environment
-- Open terminal in Visual Studio Code
-- If you are using MacOs, run the following command:
+Open terminal in Visual Studio Code or Codespaces.
+- **If you are using macOs, run the following command:**
 ```sh
 cat rc.txt >> ~/.zshrc
 source ~/.zshrc
 ```
-- If you are using Windows or Linux, run the following command:
+- **If you are using Windows or Linux, run the following command:**
 ```sh
 cat rc.txt >> ~/.bashrc
 source ~/.bashrc
@@ -35,8 +35,6 @@ source ~/.bashrc
 ./setup.sh
 ```
 
-
-
 ## Editing Github Configuration
 One time only:
 - add your github username and email to the git configuration
@@ -44,18 +42,25 @@ One time only:
 git config --global user.name "github-username"
 git config --global user.email github-email
 ```
+## Helper Aliases
+- mec: compiles and executes a C++ program
+- workspace: prints the workspace root directory to the terminal
+- gotoworkspace: goes to the workspace root directory
+- g++: modifies the g++ command to include the -std=c++23 flag
 
 
 ## Committing Your Work
 Saving your work to your repository:
 ```sh
+gotoworkspace
 git pull
 git add .
 git commit -m "<commit-message>"
 git push
 ```
-OR
+***OR***
 ```sh
+gotoworkspace
 ./gpush.sh
 ```
 You can pass a custom commit message after ./gpush.sh using the following command:
@@ -64,14 +69,16 @@ You can pass a custom commit message after ./gpush.sh using the following comman
 ```
 
 ## Fetching Updates from the Original Repository
-First time only:
+Whenever you want to update your repository with the latest changes from the original repository:
 ```sh
-git remote add upstream https://github.com/Jonathan-Skeete/CS151_Spring2025.git
-```
-Whenever you want to update your repository:
-```sh
+gotoworkspace
 git fetch upstream
 git merge upstream/main
+```
+***OR***
+```sh
+gotoworkspace
+./gfetch.sh
 ```
 
 ## C++ Development
@@ -85,13 +92,27 @@ g++ -o main main.cpp
 ```sh
 ./main
 ```
+***OR***
+- Run the following command to compile and execute your C++ program:
+```sh
+mec main.cpp
+```
 
 You can also install Code Runner in Visual Studio Code to compile and run your C++ program with a single click.
-- Click the Extensions icon in the Activity Bar on the side of the window.
-- Search for "Code Runner" in the Extensions view search box.
-- Click the Install button for "Code Runner" by Jun Han.
-- Go to: Settings (gear icon bottom left) > Settings.
-- Search run in terminal and check the box for Code-runner: Run In Terminal.
-- Open the C++ file you want to run.
-- Right-click in the editor and select Run Code or click the play button in the top right corner of the editor.
-- You can also use the keyboard shortcut Ctrl+Alt+N (Cmd+Option+N on MacOs) to run the code. 
+1. Click on the Extensions icon in the Activity Bar on the side of the window.
+2. Search for "Code Runner" in the Extensions view search box.
+3. Click on the Install button.
+4. Click on the settings cog in the lower left corner of the window.
+5. Click on Settings.
+6. Search for "run in terminal."
+7. Check the box for "Whether to run code in Integrated Terminal."
+8. Open the C++ file you want to compile and run.
+
+
+## Make Effective Choices (mec)
+## Make Efficient Code (mec)
+## Medgar Evers College (mec)
+
+
+
+
