@@ -40,8 +40,12 @@ git push
 ```
 OR
 ```sh
-./gpush.sh 
-'''
+./gpush.sh
+```
+You can pass a custom commit message after ./gpush.sh using the following command:
+```sh
+./gpush.sh "<commit-message>"
+```
 
 ## Fetching Updates from the Original Repository
 First time only:
