@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FOLDER="Playground/"
+FOLDER="Playground"
 
 if [ -d "$FOLDER" ]; then
     echo "Folder exists"
@@ -8,6 +8,6 @@ else
     mkdir $FOLDER
 fi
 
-cd $FOLDER
+./gfetch.sh
 
-# ./playground.sh
+# ./setup.sh

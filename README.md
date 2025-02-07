@@ -16,27 +16,32 @@ git clone <repository-url>
 code CS151_Spring2025
 ```
 - Open terminal in Visual Studio Code
-- Run the following commands:
+- Run the following command:
 ```sh
-./playground.sh
-./gfetch.sh
+./setup.sh
 ```
 
 ## Editing Github Configuration
-First time only:
+One time only:
+- add your github username and email to the git configuration
 ```sh
-git config --global user.name "<github-username>"
-git config --global user.email <github-email>
+git config --global user.name "github-username"
+git config --global user.email github-email
 ```
 
 
 ## Committing Your Work
 Saving your work to your repository:
 ```sh
+git pull
 git add .
 git commit -m "<commit-message>"
 git push
 ```
+OR
+```sh
+./gpush.sh 
+'''
 
 ## Fetching Updates from the Original Repository
 First time only:
