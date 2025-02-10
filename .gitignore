@@ -9,3 +9,9 @@ weeks.sh
 Week*/Results/*
 Graded
 **/package-lock.json
+.env
+.venv
+emails.txt
+send_email.py
+link.py
+__pycache__

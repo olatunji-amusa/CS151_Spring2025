@@ -14,3 +14,6 @@ git pull
 git add .
 git commit -m "$COMMIT_MESSAGE"
 git push
+
+# ./gpush.sh
+# ./gpush.sh "Commit message"
