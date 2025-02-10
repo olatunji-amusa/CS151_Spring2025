@@ -8,5 +8,4 @@ a.out
 weeks.sh
 Week*/Results/*
 Graded
-# Ignore package-lock.json explicitly
 **/package-lock.json
