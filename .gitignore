@@ -13,5 +13,8 @@ Graded
 .venv
 emails.txt
 send_email.py
+get_emails.py
+hw_reminder.py
+EmailLogs
 link.py
 __pycache__
