@@ -6,7 +6,6 @@ Playground
 .vscode
 a.out
 weeks.sh
-Week*/Results/*
 Graded
 **/package-lock.json
 .env
