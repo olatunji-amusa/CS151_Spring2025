@@ -16,11 +16,13 @@ else
     numCoupons = 3;
 cout << "The number of coupons to give is "
      << numCoupons << endl;
-
+----------------------------------------------------------------
 If the customer purchases           This many coupons are given.
 this many books 
+----------------------------------------------------------------
 1                                   
 3                                   
 4                                   
 5                                   
 10                                  
+----------------------------------------------------------------
