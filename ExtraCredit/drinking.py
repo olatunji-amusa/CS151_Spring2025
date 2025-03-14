@@ -1,5 +1,5 @@
 """
-Write a program that askes the user if they have their ID (yes or no).
+Write a program that asks the user if they have their ID (yes or no).
 If the user has their ID, ask the user if they are 21 years or older (yes or no).
 If the user is 21 years or older, display to the user that they can drink.
 If the user is less than 21 years old, display to the user that they cannot drink.
