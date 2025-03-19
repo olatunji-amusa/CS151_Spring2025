@@ -2,9 +2,10 @@
 #include "_functions.h"
 
 using namespace std;
+using namespace Presentations;
 
-bool isPrime(int num);
-using namespace Presentations; // <<<<<<<<<<<<<< HERE <<<<<<<<<<<<<<
+bool isPrime(int num); // <<<<<<<<<<<<<< HERE <<<<<<<<<<<<<<
+ 
 
 int main()
 {
