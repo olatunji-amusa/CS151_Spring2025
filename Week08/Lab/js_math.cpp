@@ -47,7 +47,7 @@ int main()
     if (oprtr == '/' && num2 == 0)
     {
         num2 = rand() % maximumValue + 1;
-        num2 *= (rand() % 2) ? 1 : -1;
+        num2 *= (rand() % 2 && negative) ? -1 : 1;
     }
 
     int result;
