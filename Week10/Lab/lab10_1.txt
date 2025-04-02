@@ -28,3 +28,4 @@ The program should print the Fibonacci number for the user-defined integer.
 9. Update the previous Fibonacci number to the current Fibonacci number.
 10. Update the current Fibonacci number to the new Fibonacci number.
 11. After the loop, print the Fibonacci number for the user-defined integer.
+12. Return 0 to indicate successful completion of the program.

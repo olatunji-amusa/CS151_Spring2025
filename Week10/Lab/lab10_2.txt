@@ -28,3 +28,4 @@ The table should look like:
 5. After the inner loop, print a newline character to move to the next line.
 6. After the outer loop, print a newline character to move to the next line.
 7. Compile and run the program to see the multiplication table.
+8. Return 0 to indicate successful completion of the program.
