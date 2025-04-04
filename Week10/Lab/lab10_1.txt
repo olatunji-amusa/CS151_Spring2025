@@ -1,6 +1,6 @@
 Fibonacci number
 
-Create a file in Week09/Lab called fibonacci.cpp
+Create a file in Week10/Lab called fibonacci.cpp
 
 Write a program that calculates the Fibonacci number for a user-defined non-negative integer.
 
