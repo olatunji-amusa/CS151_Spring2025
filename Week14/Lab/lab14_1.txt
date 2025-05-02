@@ -1,6 +1,6 @@
 Create a file in Week14/Lab called school.cpp
 
-Write a fuction called lowestGrade100() that has an array of doubles
+Write a fuction called lowestGrade100() that has an array parameter of doubles
 called grades and an int parameter called size.
 The function should find the lowest grade in the array and make it 100.0.
 The function should not return any value.
