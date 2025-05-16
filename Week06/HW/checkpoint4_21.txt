@@ -1,0 +1,14 @@
+Write an if statement that prints the message “The number is not valid” if the
+variable speed is outside the range 0 through 200.
+
+ANSWER BELOW
+*******************************************************************************
+Here’s the if statement to check if speed is outside the range 0 to 200 and print the message:
+if (speed < 0 || speed > 200)
+{
+    cout << "The number is not valid" << endl;
+}
+
+
+This ensures that the message is printed only if speed is less than 0 or greater than 200.
+Let me know if you need any refinements!

@@ -1,0 +1,16 @@
+Write a short description of each of the following functions:
+cos     log     sin
+exp     log10   sqrt
+fmod    pow     tan
+
+ANSWER BELOW
+*******************************************************************************
+cos(x) – Computes the cosine of x, where x is in radians.
+log(x) – Returns the natural logarithm (base e) of x.
+sin(x) – Computes the sine of x, where x is in radians.
+exp(x) – Calculates e raised to the power of x (e^x).
+log10(x) – Returns the base-10 logarithm of x.
+sqrt(x) – Computes the square root of x.
+fmod(x, y) – Returns the remainder of x divided by y.
+pow(x, y) – Computes x raised to the power y (x^y).
+tan(x) – Computes the tangent of x, where x is in radians.

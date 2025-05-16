@@ -1,0 +1,5 @@
+Is the following assignment statement valid or invalid? If it is invalid, why?
+
+72 = amount;
+
+the following assignment statement is invalid because this 72 is a constant number and the left hand side of an assignment must be a variable

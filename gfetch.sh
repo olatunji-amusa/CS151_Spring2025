@@ -7,7 +7,9 @@ if ! git remote get-url upstream &>/dev/null; then
     git remote add upstream "$UPSTREAM_URL"
 fi
 
+./gpush.sh
+
 git fetch upstream
-git merge upstream/main
+git merge upstream/main -m "Merging upstream changes"
 
 # ./gfetch.sh
