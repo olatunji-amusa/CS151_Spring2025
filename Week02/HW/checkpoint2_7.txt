@@ -8,7 +8,9 @@ grade_report
 
 /* Write your answers below.
 ************************************************************************************************
+99bottles because variables cant start with a number
 
+r&d beacuse variables cant have symbols in them
 
 
 

@@ -15,6 +15,6 @@ int main()
 
 // List all the variables and literals that appear in the program.
 /*
-VARIABLES: 
-LITERALS:
+VARIABLES: little, big
+LITERALS:2, 2000, The little number is, The big number is
 */

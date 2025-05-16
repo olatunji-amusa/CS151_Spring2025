@@ -4,12 +4,10 @@ using namespace std;
 
 int main() {
 cout << "Success\n";
-cout << "Success\n\n";
+cout << "Success Success\n\n";
 
 cout << "Success";
 
-// It's a mad, mad program
-cout << "Success\n";
 
 return 0;
 }
